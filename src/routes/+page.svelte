@@ -1,7 +1,13 @@
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
+<script>
+	import FaQs from '../components/FAQs.svelte';
+	import Hero from '../components/Hero.svelte';
+	import Product from '../components/Product.svelte';
+	import Reviews from '../components/Reviews.svelte';
+</script>
 
-<style lang="postcss">
-	:global(html) {
-		background-color: theme(colors.gray.100);
-	}
-</style>
+<main class="flex flex-col">
+	<Hero />
+	<Product />
+	<Reviews />
+	<FaQs />
+</main>
