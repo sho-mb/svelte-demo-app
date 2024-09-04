@@ -1,5 +1,6 @@
 <script>
-	import FaQs from '../components/FAQs.svelte';
+	import Conversion from '../components/Conversion.svelte';
+	import FAQs from '../components/FAQs.svelte';
 	import Hero from '../components/Hero.svelte';
 	import Product from '../components/Product.svelte';
 	import Reviews from '../components/Reviews.svelte';
@@ -9,5 +10,6 @@
 	<Hero />
 	<Product />
 	<Reviews />
-	<FaQs />
+	<FAQs />
+	<Conversion />
 </main>
